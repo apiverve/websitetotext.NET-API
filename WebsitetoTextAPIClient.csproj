@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.WebsitetoText</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/websitetotext</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Website to Text is a simple tool for converting a website to text. It returns the text extracted from the website.</Description>
+    <RepositoryUrl>https://github.com/apiverve/websitetotext-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>website to text; website to text api; website to text tool; website to text software; website to text service; website to text library; website to text sdk; website to text code; website to text script; website to text program; website to text application; website to text app; website to text utility; website to text helper; website to text helper tool; website to text helper software; website to text helper service; website to text helper library; website to text helper sdk; website to text helper code; website to text helper script; website to text helper program; website to text helper application; website to text helper app; website to text helper tool; website to text helper utility; website to text helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
