@@ -70,8 +70,8 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new websitetotextQueryOptions{
-  url: "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts"
+var queryOptions = new websitetotextQueryOptions {
+  url = "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts"
 };
 ```
 
