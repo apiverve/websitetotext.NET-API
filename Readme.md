@@ -71,7 +71,7 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new websitetotextQueryOptions{
-  "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts"
+  url: "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts"
 };
 ```
 
