@@ -6,26 +6,20 @@ namespace APIVerve
 {
 public class data
 {
-    [JsonProperty("date")]
-    public object date { get; set; }
-
     [JsonProperty("description")]
     public string description { get; set; }
+
+    [JsonProperty("language")]
+    public string language { get; set; }
+
+    [JsonProperty("text")]
+    public string text { get; set; }
 
     [JsonProperty("title")]
     public string title { get; set; }
 
     [JsonProperty("title_alt")]
     public string titlealt { get; set; }
-
-    [JsonProperty("text")]
-    public string text { get; set; }
-
-    [JsonProperty("language")]
-    public string language { get; set; }
-
-    [JsonProperty("url")]
-    public string url { get; set; }
 
 }
 
